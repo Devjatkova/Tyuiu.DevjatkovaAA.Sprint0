@@ -14,13 +14,13 @@ namespace Tyuiu.DevjatkovaAA.Sprint0.Task4.V0
         {
             //Пример линейной структуры программы
             //Вызов метода сложения Addition
-            Console.WriteLine(DataServise.Addition(1, 5));
+            Console.WriteLine(DataService.Addition(1, 5));
             //Вызов метода вычитания Subtraction
-            Console.WriteLine(DataServise.Subtraction(15, 5));
+            Console.WriteLine(DataService.Subtraction(15, 5));
             //Вызов метода умножения Multiplication
-            Console.WriteLine(DataServise.Multiplication(10, 10));
+            Console.WriteLine(DataService.Multiplication(10, 10));
             //Вызов метода деления Division
-            Console.WriteLine(DataServise.Division(5, 5));
+            Console.WriteLine(DataService.Division(5, 5));
 
             Console.ReadKey();
         }
